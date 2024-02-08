@@ -6,51 +6,51 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/png" href="assets/images/lara.png">
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/contato.css">
     <title>Portfólio</title>
 </head>
 
 <body>
 
-    <nav>
-        <div>
-            <img src="assets/images/lara.png" alt="Logo">
-            <span>Portfólio da Lara</span>
+ 
+    <nav class="nav">
+        <div class="div-nav">
+            <img class="foto" src="assets/images/teste-removebg-preview.png" alt="Logo">
+            <span><strong>Portfólio do André</span></strong>
         </div>
 
-        <ul>
+        <ul class="menu">
             <li><a href="index.html">Home</a></li>
             <li><a href="contato.html">Contato</a></li>
         </ul>
     </nav>
 
-
-    <main>
+    <main class="form-main">
         <section>
-            <h3>Contato</h2>
+            <h3 class=" h3-section m-200">Contato</h2>
                 <form>
                     <div class="campos-form">
-                        <label for="nome">Nome:</label>
-                        <input onkeyup="validarNome()" id="nome" name="nome" type="text"
+                        <label for="nome">Nome:</label><br>
+                        <input class="input-nome" onkeyup="validarNome()" id="nome" name="nome" type="text"
                             placeholder="Insira o seu nome completo">
                         <div id="txtNome"></div>
                     </div>
 
                     <div class="campos-form">
-                        <label for="email">E-mail:</label>
-                        <input onkeyup="validarEmail2()" id="email" name="email" type="text"
+                        <label for="email">E-mail:</label><br>
+                        <input class="input-nome" onkeyup="validarEmail2()" id="email" name="email" type="text"
                             placeholder="Insira o seu e-mail">
                         <div id="txtEmail"></div>
                     </div>
 
                     <div class="campos-form">
-                        <label for="mensagem">Mensagem:</label>
-                        <textarea onkeyup="validarMensagem()" id="mensagem" name="mensagem" rows="8"
+                        <label for="mensagem">Mensagem:</label><br>
+                        <textarea class="input-text" onkeyup="validarMensagem()" id="mensagem" name="mensagem" rows="8"
                             placeholder="Deixe sua mensagem..."></textarea>
                         <div id="txtMensagem"></div>
                     </div>
 
-                    <button type="button" onclick="enviarForm()">
+                    <button class="button" type="button" onclick="enviarForm()">
                         Enviar
                     </button>
 
@@ -59,20 +59,20 @@
         </section>
 
         <section id="formulario_buscacep">
-            <h3>Consultar CEP</h3>
+            <h3  class="h3-cep m-200">Consultar CEP</h3>
             <div>
                 <div>
-                    <label for="cep">CEP:</label>
-                    <input onkeyup="validarCep()" id="cep" name="cep" type="text" placeholder="Digite o número do CEP">
+                    <label for="cep">CEP:</label><br>
+                    <input class="input-nome" onkeyup="validarCep()" id="cep" name="cep" type="text" placeholder="Digite o número do CEP">
                     <div id="txtCep"></div>
                 </div>
-                <button type="button" onclick="consultarCep()">
+                <button class="button" type="button" onclick="consultarCep()">
                     Consultar
                 </button>
-                <hr>
+                <hr class="hr">
                 <div>
-                    <label for="dados">Endereço:</label>
-                    <textarea id="dados" name="dados" rows="7" placeholder="Busca CEP..."></textarea>
+                    <label for="dados">Endereço:</label><br>
+                    <textarea class="input-text" id="dados" name="dados" rows="7" placeholder="Busca CEP..."></textarea>
                     <div id="txtCep"></div>
                 </div>
             </div>
@@ -80,7 +80,8 @@
     </main>
 
     <footer>
-        <div >
+        <div class="footer m-200">
+            <div>
             <a href="http://linkedin.com" target="_blank">
                 <img src="assets/images/linkedin.png" alt="Linkedin">
             </a>
@@ -91,9 +92,10 @@
                 <img src="assets/images/instagram.png" alt="Instagram">
             </a>
         </div>
-        <p>Desenvolvido por: Liza Hainna - 2024 &copy;</p>
+        <p class="footer-p">Desenvolvido por: André Prado Junior - 2024 &copy;</p>
+    </div>
     </footer>
-    <script src="./assets/js/scripts.js"></script>
+
 </body>
 
 </html>
