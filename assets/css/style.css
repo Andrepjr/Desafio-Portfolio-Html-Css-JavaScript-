@@ -1,14 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Honk&family=Nabla&display=swap');
 
 body{
-    background-color: rgb(209, 209, 209);
+    background-color: rgb(246, 250, 208);
     padding: 0; margin: 0; box-sizing: border-box;
     font-family: 'Open Sans', sans-serif;
 }
 
+.span{
+    font-size: 60px;
+    margin-left: 30px;
+    font-family: 'Honk', system-ui;
+}
+
+
 .nav{
     display: flex;
-    background-color: gray;
+    background-color: rgb(49, 95, 219);
     padding: 20px;
     margin-left: 200px;
     margin-right: 200px;
@@ -19,7 +27,7 @@ body{
 }
 
 .foto{
-    width: 120px;
+    width: 200px;
     display: flex;
     justify-content: left;
     
@@ -33,8 +41,8 @@ body{
 
 .menu li a{
     text-decoration: none;
-    font-size: 25px;
-    color: black;
+    font-size: 30px;
+    color: rgb(246, 250, 208);
 }
 
 .div-nav{
@@ -46,11 +54,12 @@ body{
 .m-200{
     margin-left: 200px;
     margin-right: 200px;
+    margin-top: 80px;
 }
 
 
 .container{
-    background-color: gray;
+    background-color: rgba(218, 206, 50, 0.445);
     display: flex;
     align-items: center;
     margin-left: 200px;
@@ -79,7 +88,7 @@ body{
 
 .footer{
     display: flex;
-    background-color: rgb(75, 97, 75);
+    background-color: rgb(134, 136, 134);
     padding: 20px;
     height: 155px;
     text-align: center; 
@@ -89,7 +98,8 @@ body{
 
 .footer a img{
     width: 60px;
-    align-items: center;
+    display: inline;
+    gap: 100px;
 }
 
 .footer-p{
@@ -97,6 +107,6 @@ body{
     flex-direction: column;
     justify-content: end;
     text-align: center;
-    color: aliceblue;
+    color:rgb(246, 250, 208);
 }
 

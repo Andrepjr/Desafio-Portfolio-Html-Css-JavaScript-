@@ -1,9 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Honk&family=Nabla&display=swap');
 
 body{
-    background-color: rgb(209, 209, 209);
+    background-color: rgb(246, 250, 208);
     padding: 0; margin: 0; box-sizing: border-box;
     font-family: 'Open Sans', sans-serif;
+}
+
+.span{
+    font-size: 60px;
+    margin-left: 30px;
+    font-family: 'Honk', system-ui;
 }
 
 
@@ -15,7 +22,7 @@ body{
 
 .nav{
     display: flex;
-    background-color: gray;
+    background-color: rgb(49, 95, 219);
     padding: 20px;
     margin-left: 200px;
     margin-right: 200px;
@@ -26,7 +33,7 @@ body{
 }
 
 .foto{
-    width: 120px;
+    width: 200px;
     display: flex;
     justify-content: left;
     
@@ -40,8 +47,8 @@ body{
 
 .menu li a{
     text-decoration: none;
-    font-size: 25px;
-    color: black;
+    font-size: 30px;
+    color: rgb(246, 250, 208);
 }
 
 .div-nav{
@@ -59,36 +66,32 @@ body{
 }
 
 .button{
-    width: 600px;
+    width: 610px;
     height: 40px;
     text-align: center;
     align-items: center;
-    background-color:  rgb(75, 97, 75);
+    background-color: rgb(49, 95, 219);
     border-radius: 10px;
+    color: white;
 }
 
 .input-nome{
     width: 600px;
     height: 40px;
     border-radius: 10px;
-    border-color: rgb(75, 97, 75);
+    border-color: rgb(255, 136, 0);
 }
 
 .input-text{
     width: 600px;
     height: 200px;
     border-radius: 10px;
-    border-color: rgb(75, 97, 75);
-}
-
-
-.hr{
-    color: black;
+    border-color: rgb(255, 136, 0);
 }
 
 .footer{
     display: flex;
-    background-color: rgb(75, 97, 75);
+    background-color: rgb(134, 136, 134);
     padding: 20px;
     height: 155px;
     text-align: center; 
@@ -106,6 +109,6 @@ body{
     flex-direction: column;
     justify-content: end;
     text-align: center;
-    color: aliceblue;
+    color: rgb(246, 250, 208);
 }
 
